@@ -14,6 +14,6 @@ static->_init_actions();
 ```  
 ***  
 
-Fixing syntax beyond this brings up more syntax errors. I believe the bottom line is the server it is sitting on needs to have its PHP updated; otherwise, this could take months (manually updating --really downgrading-- all the PHP code, which is a lot. Currently it is on PHP 5.2, where our site we have migrated to here has very recently updated plugins. Need to revisit/possibly touch base with the client, to make sure the update to a newer PHP version does not break the other site they have. I don't think it will, as the code for the other site does not seem to be sitting here, just its domain. Will double-check first, as this environment is owned by client.
+Fixing syntax beyond this brings up more syntax errors. I believe the bottom line is the server it is sitting on needs to have its PHP updated; otherwise, this could take months (manually updating --really downgrading-- all the PHP code, which is a lot). Currently it is running PHP 5.2, whereas our site we have migrated here has very recently updated plugins. --Need to revisit/possibly touch base with the client, to make sure the update to a newer PHP version does not break the other site they have. I don't think it will, as the code for the other site does not seem to be sitting here, just its domain. Will double-check first, as this environment is owned by client.
 
 
